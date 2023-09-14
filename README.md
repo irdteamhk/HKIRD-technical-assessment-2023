@@ -87,10 +87,13 @@ Please ensure that all the below files are included in your submission:
 2. The HTML version of your Jupyter notebook (.html)
 3. The Docker saved image (hkird_submission.tar) or zipped
 4. A details.json file with the following details (example below):
+
+```python
 {
     "name":"Chan Tai Man",
     "email": "chantaiman@gmail.com
 }
+```
 
 Package all the above files into a .zip file, and create a new repository on GitHub (sign up for an account if you don't have), configure [GitHub LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage) and upload the .zip file in the repository using command line Git or GitHub Desktop. It is essential that you make sure your .tar file is not corrupted during uploading of the .zip file. Lastly, send an email to irdmanulife@gmail.com with the title subject "HKIRD Technical Assessment Repository-(YOUR NAME)". You must submit your work within 5 days of beginning the assessment
 
