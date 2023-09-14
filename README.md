@@ -78,15 +78,32 @@ Below are the instructions for the tasks you need to complete. Please read them 
     - You MUST use `docker save hkird_submission -o hkird_submission.tar` to prevent different OS save and loading problems.
     - Please do sufficient testing that loading your .tar file and running the image also works using `docker load -i hkird_submission.tar`
     - Please zip the .tar file before uploading it. This will help keep the size of the .tar file below 1GB which is important for submission.
+  
+# Part 3: Planning for Production (skip this for AI Engineer role)
 
-## Submission Instructions:
+Please skip this section if you are applying for the AI Engineer role.
+
+By this point, you are able to train a model and serve it in a simple container using FastAPI and Docker. Imagine that you are in a project team and the team wishes you productionize your model so that it can be used by the business user’s application. You received news that your model must be able to have a high amount of throughput, making many predictions throughout the day. Knowing the rough requirements, you decided to use cloud services for the flexibility to scale up and down. 
+Your job as the Machine Learning Scientist is to brainstorm a cost efficient and scalable prototype that demonstrates the (potential) ability to provide your model’s services at the required scale. Of course you will also need to explain the plan once you are done.
+
+**Some requirements for your prototype solution:**
+* An architectural diagram
+* Cloud based (doesn’t matter which cloud)
+* Storage for your data and model
+* Services deployed on K8s cluster
+* There’s no model performance requirement, but you should have some mechanisms to make it better in the future API for your users to try
+
+You are required to prepare a PowerPoint presentation that covers the above requirement and explain your decisions. There is no constraint on the format of the PowerPoint and level of technicality. However, hands on technical work for this part is purely optional.
+
+# Submission Instructions:
 
 Please ensure that all the below files are included in your submission:
 
 1. Your Jupyter notebook (.ipynb)
 2. The HTML version of your Jupyter notebook (.html)
 3. The Docker saved image (hkird_submission.tar) or zipped
-4. A details.json file with the following details (example below):
+4. PowerPoint (.ppt) file for part 3 (skip this for AI Engineer role)
+5. A details.json file with the following details (example below):
 
 ```python
 {
@@ -95,6 +112,6 @@ Please ensure that all the below files are included in your submission:
 }
 ```
 
-Package all the above files into a .zip file, and create a new repository on GitHub (sign up for an account if you don't have), configure [GitHub LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage) and upload the .zip file in the repository using command line Git or GitHub Desktop. It is essential that you make sure your .tar file is not corrupted during uploading of the .zip file. Lastly, send an email to irdmanulife@gmail.com with the title subject "HKIRD Technical Assessment Repository-(YOUR NAME)" and include the link to your repo. You must submit your work within 5 days of beginning the assessment
+Package all the above files into a .zip file, and create a new repository on GitHub (sign up for an account if you don't have), configure [GitHub LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage) and upload the .zip file in the repository using command line Git or GitHub Desktop. It is essential that you make sure your .tar file is not corrupted during uploading of the .zip file. Lastly, send an email to irdmanulife@gmail.com with the title subject "HKIRD Technical Assessment 2023 Repository-(YOUR NAME)" and include the link to your repo. You must submit your work within 5 days of beginning the assessment
 
 Best of luck with the assessment! We look forward to reviewing your submission.
