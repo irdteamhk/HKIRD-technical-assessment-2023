@@ -79,7 +79,7 @@ Below are the instructions for the tasks you need to complete. Please read them 
     - Please do sufficient testing that loading your .tar file and running the image also works using `docker load -i hkird_submission.tar`
     - Please zip the .tar file before uploading it. This will help keep the size of the .tar file below 1GB which is important for submission.
   
-# Part 3: Planning for Production (skip this for AI Engineer role)
+## Part 3: Planning for Production (skip this for AI Engineer role)
 
 Please skip this section if you are applying for the AI Engineer role.
 
