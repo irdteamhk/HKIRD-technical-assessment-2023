@@ -101,7 +101,7 @@ You are required to prepare a PowerPoint presentation that covers the above requ
 
 While the world has seen the many strides and development of OpenAI and ChatGPT, not much has been covered in terms of LLM development in China. However, for insurance companies, Mainland China Visitors (MCV) customers are a fast growing segment of the insurance business. Given this fact, it is worthwhile for us to also research the capabilities of China based LLMs and how they can help our insurance business to continue to serve and grow the MCV market. 
 
-## 2(a): Decoding the Frontier Developments of LLM in China
+## 2(a): Decoding Developments & Capabilities of LLM in China
 
 Please ensure to cover the following during your research:
 
