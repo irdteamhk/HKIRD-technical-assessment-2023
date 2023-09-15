@@ -120,7 +120,7 @@ Please ensure that all the below files are included in your submission:
 1. Your Jupyter notebook (.ipynb) and HTML version of your Jupyter notebook (.html) for part 1
 2. The Docker saved image (hkird_submission.tar) or zipped
 3. PowerPoint (.ppt) file for part 1(c) (skip this for AI Engineer role)
-4. 1. Your Jupyter notebook (.ipynb) and HTML version of your Jupyter notebook (.html) for part 1
+4. Your Jupyter notebook (.ipynb) and HTML version of your Jupyter notebook (.html) for part 2
 5. PowerPoint (.ppt) file for part 2(a)
 6. A details.json file with the following details (example below):
 
