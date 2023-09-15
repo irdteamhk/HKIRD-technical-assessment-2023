@@ -2,9 +2,11 @@
 
 Hello and congratulations on making it to this stage of the interview process with the HKIRD team! We believe in a hands-on approach to assess the skills and knowledge of our potential candidates. This assessment will provide an opportunity for you to showcase your expertise.
 
-Below are the instructions for the tasks you need to complete. Please read them carefully and ensure all requirements are met.
+Below are the instructions for the tasks you need to complete. Please read them carefully and ensure all requirements are met. There are two parts the assessment. 
 
-## Part 1: Data Handling and Model Training
+# Assessment Part 1: Data Analysis, Machine Learning Model Training and Container Deployment
+
+## 1(a): Data Handling and Model Training
 
 ### Requirements:
 
@@ -36,7 +38,7 @@ Below are the instructions for the tasks you need to complete. Please read them 
     OR
     - In your jupyter notebook, File --> Save and Export Notebook As --> HTML
 
-## Part 2: Model Deployment
+## Part 1(b): Model Deployment
 
 ### Requirements:
 
@@ -79,7 +81,7 @@ Below are the instructions for the tasks you need to complete. Please read them 
     - Please do sufficient testing that loading your .tar file and running the image also works using `docker load -i hkird_submission.tar`
     - Please zip the .tar file before uploading it. This will help keep the size of the .tar file below 1GB which is important for submission.
   
-## Part 3: Planning for Production (skip this for AI Engineer role)
+## Part 1(c): Planning for Production (skip this for AI Engineer role)
 
 Please skip this section if you are applying for the AI Engineer role.
 
@@ -94,6 +96,12 @@ Your job as the Machine Learning Scientist is to brainstorm a cost efficient and
 * There’s no model performance requirement, but you should have some mechanisms to make it better in the future API for your users to try
 
 You are required to prepare a PowerPoint presentation that covers the above requirement and explain your decisions. There is no constraint on the format of the PowerPoint and level of technicality. However, hands on technical work for this part is purely optional.
+
+# Assessment Part 2: LLM Research and Showcase
+
+## 2(a): [TBC]
+
+
 
 # Submission Instructions:
 
