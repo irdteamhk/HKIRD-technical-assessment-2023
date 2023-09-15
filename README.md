@@ -97,21 +97,32 @@ Your job as the Machine Learning Scientist is to brainstorm a cost efficient and
 
 You are required to prepare a PowerPoint presentation that covers the above requirement and explain your decisions. There is no constraint on the format of the PowerPoint and level of technicality. However, hands on technical work for this part is purely optional.
 
-# Assessment Part 2: LLM Research and Showcase
+# Assessment Part 2: China LLM Research and Showcase
 
-## 2(a): [TBC]
+While the world has seen the many strides and development of OpenAI and ChatGPT, not much has been covered in terms of LLM development in China. However, for insurance companies, Mainland China Visitors (MCV) customers are a fast growing segment of the insurance business. Given this fact, it is worthwhile for us to also research the capabilities of China based LLMs and how they can help our insurance business to continue to serve and grow the MCV market. 
 
+## 2(a): Decoding the Frontier Developments of LLM in China
 
+Please ensure to cover the following during your research:
+
+* **Latest breakthroughs in China-based LLMs:** Shed light on the current state-of-the-art capabilities of Chinese LLMs. Demonstrate these capabilities by in a Python Jupyter Notebook with some example data, if possible relate them to some insurance use cases. You are not required to build an entire chatbot. 
+
+* **Implications for the Insurance Sector:** Correlate these LLM capabilities with our insurance business. How can they benefit our agents and customers? Develop a few meticulously detailed use cases explaining how these technologies can be integrated into practical applications to enhance service delivery.
+
+* **Challenges & Comparisons:** Address any prevailing limitations or shortcomings of these Chinese LLMs. Further, provide a comparative analysis against the Chinese capabilities of the globally recognized OpenAI GPT models. Your comparison should draw from both strengths and weaknesses of the two models, hence providing us with an objective overview.
+
+For this part, you are required to submit your Jupyter Notebook in .ipynb and .html format and also a PowerPoint. If you are doing part 1(c), you may append to the same PowerPoint.
 
 # Submission Instructions:
 
 Please ensure that all the below files are included in your submission:
 
-1. Your Jupyter notebook (.ipynb)
-2. The HTML version of your Jupyter notebook (.html)
-3. The Docker saved image (hkird_submission.tar) or zipped
-4. PowerPoint (.ppt) file for part 3 (skip this for AI Engineer role)
-5. A details.json file with the following details (example below):
+1. Your Jupyter notebook (.ipynb) and HTML version of your Jupyter notebook (.html) for part 1
+2. The Docker saved image (hkird_submission.tar) or zipped
+3. PowerPoint (.ppt) file for part 1(c) (skip this for AI Engineer role)
+4. 1. Your Jupyter notebook (.ipynb) and HTML version of your Jupyter notebook (.html) for part 1
+5. PowerPoint (.ppt) file for part 2(a)
+6. A details.json file with the following details (example below):
 
 ```python
 {
