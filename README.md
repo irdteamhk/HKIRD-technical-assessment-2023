@@ -10,7 +10,7 @@ Below are the instructions for the tasks you need to complete. Please read them 
 
 ### Requirements:
 
-#### Objective of this task is to create a model that able to recognize various classses or images based on the data provided. 
+### Objective of this task is to create a model that able to recognize various classses or images based on the data provided. 
 
 1. **Data Extraction**:
     - Begin by unzipping the `data.zip` folder.
