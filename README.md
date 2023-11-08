@@ -76,8 +76,12 @@ Objective of this task is to create a model to recognize various classses of ima
     ```
     - Your API must be built in a way such that the above code can be executed without problem.
 
-
-4. **Exporting Docker Image**:
+4. **Building Docker Image (for M1 chip Macbooks)**
+    - Must use `docker builx build`, with the `--platform=linux/amd64` flag if you are using Macbook with M1 chip.
+    - This is because of the ARM64 architecture of image built by M1 Macbooks that by default cannot be read by Linux or Windows.
+    - If you are using Linux or Windows, the usual method of `docker build` should work.
+      
+5. **Exporting Docker Image**:
     - Once everything is set up, export your Docker image as a hkird_submission.tar file.
     - You MUST use `docker save hkird_submission -o hkird_submission.tar` to prevent different OS save and loading problems.
     - Please do sufficient testing that loading your .tar file and running the image also works using `docker load -i hkird_submission.tar`
